@@ -1,27 +1,108 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="myStyle.css">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TestRepo</title>
-</head>
-<body>
-    <div class="nav">
-        <h1>TestRepo</h1>
-    </div>
+  <head>
+    <link rel="stylesheet" href="myStyle.css" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap demo</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+      <div class="container">
+        <img
+          src="/imgs/MHLogo.png"
+          class="img-fluid"
+          style="max-width: 100px"
+          alt="Logo"
+        />
 
-    <div class="main">
-        <div class="container"></div>
-        <div class="container"></div>
-        <div class="container"></div>
-    </div>
+        <a href="#" class="navbar-brand">Mojo Hub</a>
 
-    <div class="maintext">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui reprehenderit commodi odio enim obcaecati! Cumque incidunt nostrum neque. Ipsam, tempora.</p>
-    </div>
-</body>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navmenu"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navmenu">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a href="#build" class="nav-link">Build a website</a>
+            </li>
+            <li class="nav-item">
+              <a href="#work" class="nav-link">Work together</a>
+            </li>
+            <li class="nav-item">
+              <a href="#developers" class="nav-link">Developers</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!--Showcase-->
+    <section class="bg-dark text-light p-5 text-center text-lg-start">
+      <div class="container">
+        <div class="d-lg-flex">
+          <div>
+            <h1>
+              Get help from a developer<br />student with
+              <span style="color: orange" ;>HTML </span
+              ><span style="color: blue" ;>CSS </span
+              ><span style="color: yellow" ;>JavaScript</span>
+            </h1>
+            <p class="lead my-4">
+              <span class="fw-bold">Mojo Hub</span> is driven by
+              fullstack-developer students from the
+              <a
+                href="https://teknikhogskolan.se/"
+                class="link-success link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover"
+                target="_blank"
+                >Technical college</a
+              >
+              in Lund, Sweden. We offer very affrodable services and focus
+              mainly on building connections and grow professionally.
+            </p>
+            <button class="btn btn-success btn-lg">Get in touch today</button>
+          </div>
+          <img
+            class="img-fluid w-30"
+            src="/imgs/developer.webp"
+            alt="developer-picture"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!--Newsletter-->
+    <section class="bg-success text-light p-5">
+        <div class="container">
+            <div class="d-lg-flex justify-content-between align-items-center">
+                <h3 class="lh-base w-50">Sign Up For Our Newsletter</h3>
+                <div class="input-group">
+                    <input type="text" class="form-control" placeholder="Enter your email-adress" aria-label="User Email">
+                    <button class="btn btn-dark btn-lg" type="button">
+                        Submit
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>

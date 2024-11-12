@@ -2,7 +2,7 @@
 
 ## Developer for Hire / Connect with Students
  This website is made by using BootStrap and custom CSS
- Purpose of making a organization of where I gather a group of junior developers with the same desire to get out on the market and connect with others.
+ Purpose of making a organization of where I gather a group of student developers with the same desire to get out on the market and connect with others.
 
  ### Goals
  * Make the website done using BootStrap
